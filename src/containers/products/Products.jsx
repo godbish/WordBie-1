@@ -14,12 +14,16 @@ const Products = () => {
 
       <div className="wordbie__product-content-button2">
         
+      <Link to = '/typing'>
       <button type="button"> Try now</button>
+      </Link>
       
       </div>
 
       <div className="wordbie__product-content-button3">
-      <button type="button"> Try Now</button> 
+      <Link to = '/quiz'>
+      <button type="button"> Try now</button>
+      </Link>
       </div>
     </div>
   )
