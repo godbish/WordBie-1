@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useState ,useMemo} from 'react'
+import { Link } from 'react-router-dom';
 import './apps.css'
 import Quizs from "./Quizs"
 import Timer from './Timer';
@@ -12,280 +13,300 @@ function English() {
   const data = [
     {
       id: 1,
-      question: 'Rolex is a company that specializes in what type of product?',
+      question: 'You should explain this ___ them.',
       answers: [
         {
-          text: 'Phone',
-          correct: false,
-        },
-        {
-          text: 'Watches',
+          text: 'To ',
           correct: true,
         },
         {
-          text: 'Food',
+          text: 'With',
           correct: false,
         },
         {
-          text: 'Cosmetic',
+          text: 'At',
+          correct: false,
+        },
+        {
+          text: 'Among',
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: 'When did the website `Facebook` launch?',
+      question: 'He has been absent ___ Monday.',
       answers: [
         {
-          text: '2004',
+          text: 'For',
+          correct: false,
+        },
+        {
+          text: 'Since ',
           correct: true,
         },
         {
-          text: '2005',
+          text: 'From',
           correct: false,
         },
         {
-          text: '2006',
-          correct: false,
-        },
-        {
-          text: '2007',
+          text: 'All of the above',
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: 'Who played the character of harry potter in movie?',
+      question: "I haven't been to the theatre ___ a long time.",
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'For',
           correct: true,
+        },
+        {
+          text: 'Since',
+          correct: false,
+        },
+        {
+          text: 'From',
+          correct: false,
+        },
+        {
+          text: 'After',
+          correct: false,
         },
       ],
     },
     {
       id: 4,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'He goes ___ school by car.',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'To',
           correct: true,
+        },
+        {
+          text: 'By ',
+          correct: false,
+        },
+        {
+          text: 'On',
+          correct: false,
+        },
+        {
+          text: 'All of the above',
+          correct: false,
         },
       ],
     },
     {
       id: 5,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'This is a comfortable house to live ___. ',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'At ',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'In',
           correct: true,
+        },
+        {
+          text: 'On',
+          correct: false,
+        },
+        {
+          text: 'All of the above',
+          correct: false,
         },
       ],
     },
     {
       id: 6,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'They are called ___ different names.',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'With',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'By' ,
           correct: true,
+        },
+        {
+          text: 'For',
+          correct: false,
+        },
+        {
+          text: 'From',
+          correct: false,
         },
       ],
     },
     {
       id: 7,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'We should not spend money ___ luxuries.',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'For',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
+          text: 'With',
           correct: false,
         },
         {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'On',
           correct: true,
+        },
+        {
+          text: 'By',
+          correct: false,
         },
       ],
     },
     {
       id: 8,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'I gave him a chair to sit ___.',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'On',
           correct: true,
+        },
+        {
+          text: 'In',
+          correct: false,
+        },
+        {
+          text: 'By',
+          correct: false,
+        },
+        {
+          text: 'Upon',
+          correct: false,
         },
       ],
     },
     {
       id: 9,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'The new term begins ___ June 1st.',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'On',
           correct: true,
+        },
+        {
+          text: 'In',
+          correct: false,
+        },
+        {
+          text: 'At',
+          correct: false,
+        },
+        {
+          text: 'From',
+          correct: false,
         },
       ],
     },
     {
       id: 10,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'He poured the tea ___ the mug. ',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'In',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'Into',
           correct: true,
+        },
+        {
+          text: 'On',
+          correct: false,
+        },
+        {
+          text: 'Onto',
+          correct: false,
         },
       ],
     },
   ]
-
-  const moneyPyramid = useMemo (()=>
+  const handlePlayAgain = () => {
+    setStop(false) }
+    
+const moneyPyramid = useMemo(
+  () =>
     [
-    { id: 1, point: '100' },
-  { id: 2, point: '200' },
-  { id: 3, point: '300' },
-  { id: 4, point: '400' },
-  { id: 5, point: '500' },
-  { id: 6, point: '600' },
-  { id: 7, point: '700' },
-  { id: 8, point: '800' },
-  { id: 9, point: '900' },
-  { id: 10, point: '1000' },
-].reverse(),
-[])
-   
+      { id: 1, point: '100' },
+      { id: 2, point: '200' },
+      { id: 3, point: '300' },
+      { id: 4, point: '400' },
+      { id: 5, point: '500' },
+      { id: 6, point: '600' },
+      { id: 7, point: '700' },
+      { id: 8, point: '800' },
+      { id: 9, point: '900' },
+      { id: 10, point: '1000' },
+    ].reverse(),
+  []
+)
 
-  useEffect(()=>{
-  questionNumber >1 && setScored(moneyPyramid.find((m)=>m.id === questionNumber-1).point)
-  },[ questionNumber,moneyPyramid])
+useEffect(() => {
+  questionNumber > 1 &&
+    setScored(moneyPyramid.find((m) => m.id === questionNumber - 1).point)
+}, [questionNumber, moneyPyramid])
 
-  
-
-  return (
-    <div className="app">
-      <div className="main">
-        {stop ? (
-        <h1 className='endText'><div className='text'>you scored:{scored}</div></h1>
-        ):(
-        <>
-        <div className="top">
-        <div className="timer">
-          <Timer setStop={setStop} questionNumber={questionNumber}/>
+return (
+  <div className="app">
+    <div className="main">
+      {stop ? (
+        <div className="endtext">
+          <h2 className="h1">STRIVE FOR PROGRESS</h2>
+          <div>
+            <hr className="line" />
           </div>
-      </div>
-      <div className="buttom">
-        <Quizs
-          data={data
-          }
-          setStop={setStop}
-          questionNumber={questionNumber}
-          setQuestionNumber={setQuestionNumber}
-        />
-      </div>
-      </>
-      )
-      }
-        
-      </div>
-      <div className="point">
-        <ul className="moneyList">
-        
-        </ul>
-      </div>
+
+          <div>
+            <h2 className="h2"> FINAL SCORE : {scored}</h2>
+          </div>
+
+          <div className="butt">
+            <Link to="/quiz">
+              <button className="playagain" onClick={handlePlayAgain}>
+                PLAY AGAIN
+              </button>
+            </Link>
+
+            <Link to="/">
+              <button className="playagain" onClick={handlePlayAgain}>
+              QUIT GAME
+              </button>
+            </Link>            </div>
+        </div>
+      ) : (
+        <>
+          <div className="top">
+            <div className="timer">
+              <Timer setStop={setStop} questionNumber={questionNumber} />
+            </div>
+          </div>
+          <div className="buttom">
+            <Quizs
+              data={data}
+              setStop={setStop}
+              questionNumber={questionNumber}
+              setQuestionNumber={setQuestionNumber}
+            />
+          </div>
+        </>
+      )}
     </div>
-  )
+    <div className="point">
+      <ul className="moneyList"></ul>
+    </div>
+  </div>
+)
 }
+
 export default English

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 const Products = () => {
   return (
-    <div className="wordbie__product-content">
+    <div className="wordbie__product-content" id='product'>
       <div className="wordbie__product-content-button1">
       <Link to = '/wordGuessingGame'>
       <button type="button"> Try now</button>

@@ -50,12 +50,12 @@ function Form () {
      
     
       //code for the timer
-      const [timer, setTimer] = useState(10);
+      const [timer, setTimer] = useState(100);
   
       useEffect(()=> {
        
 
-        if (timer==0) {
+        if (timer===0) {
         return(
         setShowScore(true)
         )
@@ -106,13 +106,14 @@ return(
     <div className="container">
     <div >
       <div className="verytop">
-       <div className="timer"> {timer} </div>
        
-       <button className="score">{score}</button>
+       <button className = 'timer'>{timer}</button>
+      
+     
        
         </div>  
 
-        <hr className="line"></hr>
+       
 
 
     <form  className = "form" onSubmit={handleSubmit}>

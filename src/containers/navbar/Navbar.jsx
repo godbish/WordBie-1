@@ -2,15 +2,22 @@
 import React, {useState} from 'react';
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
+import { Link } from 'react-scroll';
 import './navbar.css';
 
 const Menu =()=>(
   <>
     <p><a href ="#home">Overview</a></p>
-          <p><a href ="#home">Features</a></p>
-          <p><a href ="#home">About</a></p>
-          <p><a href ="#home">Help</a></p>
-          <p><a href ="#home">Contact</a></p>
+          <p><Link  to="product" spy={true} smooth={true} offset={20} duration={500}>
+          Products
+        </Link> </p>
+        <p><Link  to="about" spy={true} smooth={true} offset={20} duration={250}>
+          Contact US
+        </Link></p>
+          <p><Link  to="about" spy={true} smooth={true} offset={20} duration={250}>
+          About
+        </Link></p>
+          
   </>
 )
 const Navbar = () => {
@@ -43,10 +50,10 @@ const Navbar = () => {
             <div className='wordbie__navbar-menu_container scale-up-center'>
               <div className='wordbie__navbar-menu_container-links'>
               <Menu />
-              <div className='wordbie__navbar-menu_container-links-sign'>
+              {/* <div className='wordbie__navbar-menu_container-links-sign'>
 
-          <button type="button"> Sign Up</button>
-        </div>
+          <button type="button"> Sign Up</button> */}
+        {/* </div> */}
               </div>
             </div>
 

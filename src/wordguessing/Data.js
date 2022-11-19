@@ -163,7 +163,7 @@ const questions = [
     
     answer: ['Hans Zimmer'],
     questionText: [ 'interstellar' ,'inception', 'german' ,'music', 'composer'],
-    hint:['H a n _ Z i m m _ _'],
+    hint:['H a n _  Z i m m _ _'],
   },
   {
     
@@ -192,7 +192,7 @@ const questions = [
     {
     answer: ['Grand slam'],
     questionText: [ 'homerun' ,'bases','baseball' ,'hit', 'america'],
-    hint:['G r a n d _ l a m'],
+    hint:['G r a n d  _ l a m'],
   },
   {
     
@@ -228,7 +228,7 @@ const questions = [
     
     answer:['family tree'],
     questionText: [ 'ancestors','record' ,'birth','death','marriage'],
-    hint:['f _ m _ _ y t _ _ _'],
+    hint:['f _ m _ _ y  t _ _ _'],
   },
   {
     
@@ -246,7 +246,7 @@ const questions = [
     
     answer: ['lullaby'],
     questionText: ['baby','sleep','cradle','sing','rock'],
-    hint:['l u l _ _ y'],
+    hint:['l _l _ b _ y'],
   },
 
   {
@@ -259,7 +259,7 @@ const questions = [
     
     answer: ['tugboat'],
     questionText: ['ship','barge','tow','push','pull'],
-    hint:['t u g _ _ _ t'],
+    hint:['t u _ b _ _ t'],
   },
   {
  

@@ -265,13 +265,13 @@ const Typing= () => {
           </div>
         </div>
 
-        <footer className="small text-muted pt-5 pb-2 footer">
+        {/* <footer className="small text-muted pt-5 pb-2 footer">
           <div className="footer-info text-center">
             <ul className="list-inline m-1">
-              <li className="list-inline-item">WordBie</li>
-            </ul>
+              {/* <li className="list-inline-item">WordBie</li> */}
+            {/* </ul>
           </div>
-        </footer>
+        </footer> */} */}
       </div>
     </div>
   )
