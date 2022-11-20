@@ -49,7 +49,7 @@ const App = () => {
     <Route path='/quiz' element = {<Dropdown/>}/>
     <Route path="/" element={<Home />}></Route>
             <Route path="/quiz/speech" element={<Grammar />}/>
-            <Route path="/quiz/history" element={<History />}/>
+            <Route path="/quiz/vocab" element={<History />}/>
             <Route path="/quiz/preposition" element={<English />}/>
     </Routes>
   )

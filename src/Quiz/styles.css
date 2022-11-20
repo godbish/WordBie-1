@@ -4,7 +4,7 @@
 }
 
 body {
-    background: white;
+    background: rgb(52, 36, 125);
 }
 
 .container{
@@ -19,7 +19,7 @@ body {
 }
 .dropdown .dropdown-btn {
     padding :10px;
-    background: white;
+    background: rgb(50, 151, 227);
     box-shadow: 3px 3px 10px 6px rgba(0,0,0.06);
     display: flex;
     align-content: center;
@@ -30,7 +30,7 @@ body {
     top :110%;
     left :0;
     padding: 10px;
-    background: white;
+    background: rgb(133, 133, 155);
     box-shadow: 3px 3px 10px 6px rgba(0,0,0.06);
     width: 95%;
 
@@ -42,5 +42,5 @@ cursor: pointer;
 transition: all 0.2s;
 }
 .dropdown .dropdown-content .dropdown-item:hover {
-    background: pink;
+    background: rgb(68, 160, 146);
 }

@@ -11,16 +11,13 @@ function Dropdown() {
       </div>
     {isActive && (
       <div className="dropdown-content">
-        <div className="dropdown-item"> <a href='/quiz/speech' > DIRECT AND INDIRECT SPEECH</a></div>
-        <div className="dropdown-item"><Link to="/quiz/history"> history</Link></div>
+        <div className="dropdown-item"><Link to='/quiz/speech' > DIRECT AND INDIRECT SPEECH</Link></div>
+        <div className="dropdown-item"><Link to="/quiz/vocab">VOCABULARY</Link></div>
         <div className="dropdown-item"><Link to="/quiz/preposition"> PREPOSTION</Link></div>
         
       </div>
       )
       }
-
-
-
     </div>
   )
 }

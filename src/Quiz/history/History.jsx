@@ -12,221 +12,221 @@ function History() {
   const data = [
     {
       id: 1,
-      question: 'Rolex is a company that specializes in what type of product?',
+      question: 'To be ________ means to have a good characteristic',
       answers: [
         {
-          text: 'Phone',
-          correct: false,
-        },
-        {
-          text: 'Watches',
+          text: 'Aesthetic',
           correct: true,
         },
         {
-          text: 'Food',
+          text: 'Amicable',
           correct: false,
         },
         {
-          text: 'Cosmetic',
+          text: 'Anachronistic',
+          correct: false,
+        },
+        {
+          text: 'Arid',
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: 'When did the website `Facebook` launch?',
+      question: 'To ________ means to make less, or become less.',
       answers: [
         {
-          text: '2004',
+          text: 'Abdicate',
+          correct: false,
+        },
+        {
+          text: 'Asylum',
+          correct: false,
+        },
+        {
+          text: 'Adversity',
+          correct: false,
+        },
+        {
+          text: 'Abate ',
           correct: true,
-        },
-        {
-          text: '2005',
-          correct: false,
-        },
-        {
-          text: '2006',
-          correct: false,
-        },
-        {
-          text: '2007',
-          correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: 'Who played the character of harry potter in movie?',
+      question: '________ means chronically misplaced.',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'Amicable',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
+          text: 'Aesthetic',
           correct: false,
         },
         {
-          text: 'Denzel Washington',
+          text: 'Adversity',
           correct: false,
         },
         {
-          text: 'Daniel Red Cliff',
+          text: 'Anachronist ',
           correct: true,
         },
       ],
     },
     {
       id: 4,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'To ________ yourself means to stop yourself from doing something.',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'Abstain',
           correct: true,
+        },
+        {
+          text: 'Abate',
+          correct: false,
+        },
+        {
+          text: 'Arid',
+          correct: false,
+        },
+        {
+          text: 'Asylum',
+          correct: false,
         },
       ],
     },
     {
       id: 5,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Imply (verb)',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'To say no to something, usually politely',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'To show or suggest indirectly',
           correct: true,
+        },
+        {
+          text: 'To admire someone',
+          correct: false,
+        },
+        {
+          text: 'Not to do something',
+          correct: false,
         },
       ],
     },
     {
       id: 6,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Decline (verb)',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'To say no to something, usually politely',
           correct: true,
+        },
+        {
+          text: 'To show or suggest indirectly',
+          correct: false,
+        },
+        {
+          text: 'To admire someone',
+          correct: false,
+        },
+        {
+          text: 'Not to do something',
+          correct: false,
         },
       ],
     },
     {
       id: 7,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Appropriate (adjective)',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'Admirable',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
+          text: 'Common, shared',
           correct: false,
         },
         {
-          text: 'Denzel Washington',
+          text: 'Possible',
           correct: false,
         },
         {
-          text: 'Daniel Red Cliff',
+          text: 'Proper, suitable',
           correct: true,
         },
       ],
     },
     {
       id: 8,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Mutual (adjective)',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'Admirable',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
+          text: 'Possible',
           correct: false,
         },
         {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'Common, shared by two or more people toward one another',
           correct: true,
+        },
+        {
+          text: 'Proper, suitable',
+          correct: false,
         },
       ],
     },
     {
       id: 9,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Respect (noun)',
       answers: [
         {
-          text: 'Johnny Deep',
-          correct: false,
-        },
-        {
-          text: 'Leonardo Di Caprio',
-          correct: false,
-        },
-        {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'Admiration',
           correct: true,
+        },
+        {
+          text: 'Retiree',
+          correct: false,
+        },
+        {
+          text: 'Expectation',
+          correct: false,
+        },
+        {
+          text: 'Representation',
+          correct: false,
         },
       ],
     },
     {
       id: 10,
-      question: 'Who played the character of harry potter in movie?',
+      question: 'Retiree (noun) (noun)',
       answers: [
         {
-          text: 'Johnny Deep',
+          text: 'A person who is working',
           correct: false,
         },
         {
-          text: 'Leonardo Di Caprio',
+          text: 'A person who is resting',
           correct: false,
         },
         {
-          text: 'Denzel Washington',
-          correct: false,
-        },
-        {
-          text: 'Daniel Red Cliff',
+          text: 'A person who is retiring',
           correct: true,
+        },
+        {
+          text: 'A person who is sleeping',
+          correct: false,
         },
       ],
     },
