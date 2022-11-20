@@ -6,17 +6,24 @@ const Header = () => {
   return (
     
     <div className="wordbie__header" id="home">
-      <div className="wordbie__header-content">
+      <div className="wordbie__header__main">
+      <div className="wordbie__header-content" >
         <h1 className="wordbie__text">
-        PLAY IT.
-        LEARN IT.
-        LOVE IT.
+        <ul>
+        <li>PLAY IT.</li> 
+        <li>LEARN IT.</li>
+        <li>LOVE IT.</li>
+        </ul>
         </h1>
     
       </div>
       <div className="wordbie__header-content__input">
           <button type="button">Get Started</button>
       </div>
+      
+      
+    </div>
+
       <div className='wordbie__header-image'>
         <img src={illustration} alt='illustration' />
       </div>

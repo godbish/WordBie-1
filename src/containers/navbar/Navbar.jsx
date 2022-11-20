@@ -29,10 +29,10 @@ const Navbar = () => {
         
         
         </div>
-        <div className='wordbie__navbar-sign'>
+        {/* <div className='wordbie__navbar-sign'>
 
           <button type="button"> Sign Up</button>
-        </div>
+        </div> */}
 
         <div className='wordbie__navbar-menu'>
           {toggleMenu
@@ -43,10 +43,10 @@ const Navbar = () => {
             <div className='wordbie__navbar-menu_container scale-up-center'>
               <div className='wordbie__navbar-menu_container-links'>
               <Menu />
-              <div className='wordbie__navbar-menu_container-links-sign'>
+              {/* <div className='wordbie__navbar-menu_container-links-sign'>
 
           <button type="button"> Sign Up</button>
-        </div>
+        </div> */}
               </div>
             </div>
 

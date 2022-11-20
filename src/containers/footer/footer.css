@@ -1,0 +1,68 @@
+.wordbie__footer-content{
+    background: linear-gradient(135deg, #4F14F8 9.52%, #B197E9 82.52%);
+    align-items: center;
+    display: flex;
+}
+
+.foralignment{
+
+    display: flex;
+    
+    flex-direction:row;
+}
+.footer__logo-stuff{
+    display: flex;
+    flex-direction: column;
+    flex:30%;
+    
+}
+.logo-para{
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 130%;
+    color:#D1F0E3;
+    padding-bottom: 4rem;
+}
+.logo-image{
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+.footerelements{
+    align-items: right;
+    display: flex;
+    flex-direction: row;
+    flex:70%;
+    
+}
+.footer_account{
+    display: flex;
+    flex-direction: column;
+    color: white;    
+}
+.footerelements h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 6rem;
+    font-family: var(--font-family);
+    font-style:normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 130%;
+    color:white;
+}
+
+.footerelements p{
+    color:beige;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size:20px;
+    line-height: 130%;
+    color:white;
+}

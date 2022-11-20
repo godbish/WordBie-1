@@ -1,29 +1,24 @@
 import React from 'react';
 
-import {Navbar,Header,Header1,Products,Footer} from './containers';
-import {Rectangle,Cylinder,Pentagon,Circle,Polygon} from './components';
+import {Navbar,Header,Header1,Products,Rectangle,Footer} from './containers';
+import {Cylinder,Pentagon,Circle,Polygon,Title} from './components';
 import './App.css';
 
 const App = () => {
   return (
     <div className='App'>
     <div className='rect'>
-      <div className='gradient_bg'>
-        <Rectangle></Rectangle>
+      <div className='gradient_bg'> 
         <Navbar />
-        <Header />
-        
-        
-        
+        <Header />    
       </div>
-    </div>
+  </div>
       <Header1 />
       <Products />
-      <Cylinder />
-      <Pentagon />
-      <Circle />
+      <Rectangle />
+      <Title />
       <Footer />
-      <Polygon />
+      
 
     </div>
   )

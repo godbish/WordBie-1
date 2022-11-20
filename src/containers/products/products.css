@@ -1,4 +1,269 @@
 .wordbie__product-content{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wordbie__product-content h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 87px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+.wordbie__product1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+.wordbie__product2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+.wordbie__product3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+.container3{
+    width: 688px;
+    height: 656px;
+    background: linear-gradient(135deg, #4F14F8 9.52%, #B197E9 82.52%);
+    border-radius: 50%;
+}
+
+.container1{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #4F14F8 11.05%, #B197E9 84.05%);
+    border-radius: 500px;
+    transform: rotate(-40deg);
+    align-items: center;
+}
+
+.container2{
+    margin-left: 10rem;
+    width: 671px;
+    height: 626px;
+    display:flex;
+    flex-direction: column;
+    background-image:url(C:\Users\HP\wordbie\src\assets\pentagon.svg) ;
+    background-size: cover;
+    align-items: center;
+}
+.wordbie__product1_textside{
+    transform: rotate(+40deg);
+    
+    padding: 4rem;
+    
+}
+.wordbie__product2_textside{
+    margin-top: 10rem;
+}
+.wordbie__product3_textside{
+    margin-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.wordbie__product1_textside h2{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-family: var(--font-family);
+    padding-top:4rem;
+    margin-left: 10rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size:60px;
+    line-height: 130%;
+/* or 78px */
+
+
+color: #FFFFFF;
+
+
+}
+.wordbie__product2_textside h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-family: var(--font-family);
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+/* or 78px */
+
+
+color: #FFFFFF;
+
+
+}
+.wordbie__product3_textside h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-family: var(--font-family);
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+/* or 78px */
+
+
+color: #FFFFFF;
+
+
+}
+.wordbie__product1 img{
+    padding-right: 5rem;
+}
+.wordbie__product1_textside p{
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    
+
+ 
+    
+/* or 25px */
+
+
+color: #C4E6EE;
+ 
+/* or 78px */
+
+
+
+
+
+}
+.wordbie__product2_textside p{
+    display: flex;
+    padding-top: 1rem;
+    /*padding-left: 20rem;
+    padding-right: 5rem;
+    flex: 20%;
+    flex: 20%;*/
+    /*margin-left: 12rem;*/
+    text-align:left;
+    font-family: var(--font-family);
+    padding-left: 5rem;
+    font-weight: 600;
+    font-size: 22px;
+    padding-right: 5rem;
+    
+
+ 
+    
+/* or 25px */
+
+
+color: #C4E6EE;
+ 
+/* or 78px */
+
+}
+.wordbie__product3_textside p{
+    display: flex;
+    padding-top: 1rem;
+    /*padding-left: 20rem;
+    padding-right: 5rem;
+    flex: 20%;
+    flex: 20%;*/
+    /*margin-left: 12rem;*/
+    text-align:left;
+    font-family: var(--font-family);
+    padding-left: 5rem;
+    font-weight: 600;
+    font-size: 22px;
+    padding-right: 5rem;
+    
+
+ 
+    
+/* or 25px */
+
+
+color: #C4E6EE;
+ 
+/* or 78px */
+
+
+
+
+
+}
+.wordbie__product1_textside button{
+font-family: var(--font-family);
+    width: 380px;
+    height: 140px;
+    flex:2;
+    background: #ED80FD;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 36px;
+    border:0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top:5rem;
+    margin-left: 30rem;
+}
+.wordbie__product2_textside button{
+    font-family: var(--font-family);
+        width: 380px;
+        height: 140px;
+        flex:2;
+        background: #ED80FD;
+        border-radius: 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 36px;
+        border:0;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top:3rem;
+        margin-right: 10rem;
+    }
+    .wordbie__product3_textside button{
+       
+            font-family: var(--font-family);
+            width: 380px;
+            height: 140px;
+            flex:2;
+            background: #ED80FD;
+            border-radius: 25px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 36px;
+            border:0;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin-top:9rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+/*.wordbie__product-content{
+    background-image: url(C:\Users\HP\wordbie\src\assets\product.svg);
+    background-size: cover;
+    height:3385px;
+    margin-left: -400px;
     flex:1;
     display:flex;
     justify-content: center;
@@ -12,6 +277,7 @@
 
 }
 .wordbie__product-content-button1 button{
+    margin-left: -300px;
     font-family: var(--font-family);
     width: 190px;
     height: 70px;
@@ -29,6 +295,7 @@
 }
 
 .wordbie__product-content-button2 button{
+    margin-left: 1000px;
     font-family: var(--font-family);
     width: 190px;
     height: 70px;
@@ -41,11 +308,12 @@
     line-height: 36px;
     border:0;
     color: #FFFFFF;
-    margin-top: 200px;
+    margin-top: 800px;
     cursor: pointer;
 }
 
 .wordbie__product-content-button3 button{
+    margin-left: -200px;
     font-family: var(--font-family);
     width: 190px;
     height: 70px;
@@ -58,7 +326,7 @@
     line-height: 36px;
     border:0;
     color: #FFFFFF;
-    margin-top: 200px;
+    margin-top: 800px;
     cursor: pointer;
 }
-
+*/
