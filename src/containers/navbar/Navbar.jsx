@@ -26,8 +26,6 @@ const Navbar = () => {
                 <Menu />
           
         </div>
-        
-        
         </div>
         {/* <div className='wordbie__navbar-sign'>
 
